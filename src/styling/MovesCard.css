@@ -1,0 +1,49 @@
+.battle-screen .user-section, .battle-screen .bot-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+  }
+  
+  .moves-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .moves-card button {
+    margin: 5px;
+    padding: 10px;
+    background-color: #f0f0f0; /* Consistent with other button styles */
+    color: #333; /* Ensuring readability */
+    border-radius: 5px; /* Consistency with other elements */
+    transition: background-color 0.3s; /* Interaction feedback */
+  }
+  
+  .moves-card button[disabled] {
+    background: #c0c0c0; 
+    cursor: not-allowed;
+  }
+  
+  
+
+
+
+
+  .selected-pokemon-card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .selected-pokemon-card img {
+    max-width: 100px;
+    height: auto;
+  }
+  
+  .selected-pokemon-card h3 {
+    margin: 10px 0;
+  }
+  

@@ -1,0 +1,25 @@
+.battle-message {
+    padding: 10px;
+    margin: 20px 0; 
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #f0f0f012; 
+    text-align: center;
+    font-size: 1.2em; 
+    color: #c5c5c5; 
+  }
+  
+ 
+  .win-message {
+    border-left: 4px solid #4caf50; 
+  }
+  
+  .loss-message {
+    border-left: 4px solid #ff6b6b; 
+  }
+  
+  .end-game-message {
+    font-weight: bold;
+    color: #4a90e2; 
+  }
+  

@@ -1,0 +1,22 @@
+.startOver, .battle {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  outline: none;
+}
+
+.startOver {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #f2f2f2;
+  color: #333; 
+}
+
+.battle {
+  display: flex;
+  align-items: end;
+  background-color: #4CAF50; 
+  color: white; 
+}

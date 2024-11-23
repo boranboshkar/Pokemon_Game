@@ -1,0 +1,29 @@
+
+  .pokemon-team li:not(.read-only) {
+    cursor: pointer;
+    margin-bottom: 1.5rem; 
+    transition: transform 0.2s ease;
+  }
+  
+  .pokemon-team li:not(.read-only):hover {
+    transform: translateY(-5px);
+  }
+  
+
+  .pokemon-team li.read-only {
+    cursor: default;
+  }
+  
+  .pokemon-team img {
+    width: 135px; 
+    height: 135px;
+    border-radius: 50%;
+    background-color: #2d2d2d;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  .pokemon-team li.played {
+    opacity: 0.2;
+    pointer-events: none;
+  }
+  
+  

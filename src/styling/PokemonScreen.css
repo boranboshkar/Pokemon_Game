@@ -1,0 +1,74 @@
+.pokemon-screen {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.header {
+  color: #ddd;
+  padding: 20px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+h1{
+  color: rgb(162, 138, 124); 
+  margin: 10px 0; 
+
+}
+
+.NoPokemonMessage{
+  padding: 20px;
+  text-align: center;
+
+  font-weight: bold;
+  color: rgb(206, 193, 193);
+
+}
+.pokemon-team {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.pokemon-team ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap : 30px; 
+}  
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding: 20px;
+}
+
+.stats-section, .alertBox, .winRate {
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.statusMessage {
+  padding: 10px;
+  margin: 10px 0;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.winPercentage {
+  display: inline-flex; 
+  align-items: center; 
+  justify-content: center; 
+  padding: 10px; 
+  border-radius: 50%; 
+  border: 2px solid green; 
+  font-weight: bold; 
+}

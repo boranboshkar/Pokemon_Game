@@ -1,0 +1,36 @@
+.battle-screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .RoundNum{
+    color: rgb(255, 166, 0); 
+    margin: 10px 0; 
+  }
+
+  .bot-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+  }
+  .pokemon-team {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .pokemon-team ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row ;
+    gap : 30px; 
+  }  
+  
+  h5 {
+    color: #838383; 
+    margin: 10px 0; 
+  }

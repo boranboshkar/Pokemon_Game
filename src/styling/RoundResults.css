@@ -1,0 +1,27 @@
+.round-result {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f0f012;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .bot-move {
+    border-left: 4px solid #ff6347; 
+    color: #d63031;
+  }
+  
+  .user-move {
+    border-left: 4px solid #74b9ff; 
+    color: #0984e3;
+  }
+  
+  .round-result span {
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  
+  
